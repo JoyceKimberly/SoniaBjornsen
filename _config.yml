@@ -1,4 +1,4 @@
-baseurl: https://joycekimberly.github.io/SoniaBjornsen/
+baseurl: joycekimberly.github.io/SoniaBjornsen
 theme: jekyll-theme-cayman
 permalink: pretty
 markdown: kramdown
