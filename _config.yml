@@ -1,5 +1,3 @@
-baseurl: SoniaBjornsen
-permalink: pretty
 markdown: kramdown
 defaults:
   -
@@ -8,3 +6,5 @@ defaults:
     values:
       layout: default
       author: "Sonia Bjornsen"
+      baseurl: SoniaBjornsen
+      permalink: pretty
