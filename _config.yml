@@ -1,3 +1,10 @@
 baseurl: SoniaBjornsen
 permalink: pretty
 markdown: kramdown
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+      author: "Sonia Bjornsen"

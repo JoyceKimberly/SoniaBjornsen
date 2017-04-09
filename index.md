@@ -1,5 +1,5 @@
 ---
-layout: default
+title: "Sonia Bjornsen"
 ---
 
 {% for post in site.posts %}
