@@ -1,5 +1,5 @@
-url: https://joycekimberly.github.io/SoniaBjornsen
-baseurl: SoniaBjornsen
+url: https://joycekimberly.github.io/SoniaLynnBjornsen
+baseurl: SoniaLynnBjornsen
 permalink: pretty
 markdown: kramdown
 
@@ -9,4 +9,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-      author: "Sonia Bjornsen"
+      author: "Sonia Lynn Bjornsen"
