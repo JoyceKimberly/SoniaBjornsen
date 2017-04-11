@@ -3,6 +3,9 @@ baseurl: SoniaLynnBjornsen
 permalink: pretty
 markdown: kramdown
 
+gems:
+  - jekyll-seo-tag
+
 defaults:
   -
     scope:
