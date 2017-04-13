@@ -10,10 +10,3 @@ defaults:
     values:
       layout: "default"
       author: "Sonia Lynn Bjornsen"
-
-gems:
-  - jekyll-seo-tag
-
-seo:
-  name: "Sonia Lynn Bjornsen"
-  type: Person

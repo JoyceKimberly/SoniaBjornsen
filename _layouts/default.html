@@ -10,7 +10,14 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script type="text/javascript" src="{{ '/assets/js/functions.js' | relative_url }}"></script>
-    {% seo %}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "MusicGroup",
+      "url": "{{ site.url }}",
+      "name": "Sonia Lynn Bjornsen",
+    }
+    </script>
   </head>
   <body>
     {{ content }}
