@@ -3,11 +3,13 @@ title: "Sonia Lynn Bjornsen"
 ---
 
 <div>
-  {% for pag in site.pages %}
+  {% for page in site.pages %}
+    {% if page.path == '_pages' %}
       <div>
-        <div>{{ pag.title }}</div>
-        <div>{{ pag.excerpt }}</div>
+        <div>{{ page.title }}</div>
+        <div>{{ page.excerpt }}</div>
       </div>
+    {% endif %}
   {% endfor %}
 </div>
 
