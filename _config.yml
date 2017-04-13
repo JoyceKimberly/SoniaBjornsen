@@ -12,7 +12,7 @@ defaults:
       author: "Sonia Lynn Bjornsen"
   -
     scope:
-      path: ""
+      path: "_pages"
       type: "pages"
     values:
       layout: ""
