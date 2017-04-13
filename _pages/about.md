@@ -1,5 +1,5 @@
 ---
 title: "About"
-permalink: "/about/"
+layout: ""
 ---
 Here is a whole bunch of biography.
