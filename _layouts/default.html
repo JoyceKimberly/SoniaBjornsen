@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en-us" itemscope itemtype="http://schema.org/WebSite" itemid="{{ site.url }}">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title itemprop="name">{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -11,10 +10,9 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script type="text/javascript" src="{{ '/assets/js/functions.js' | relative_url }}"></script>
-    <meta itemprop="about" itemscope itemid="{{ site.url }}#about">
+    {% seo %}
   </head>
-  <body itemscope itemtype="http://schema.org/Person" itemid="{{ site.url }}#about">
-    <span itemprop="name" class="hidden">Sonia Lynn Bjornsen</span>
+  <body>
     {{ content }}
   </body>
 </html>

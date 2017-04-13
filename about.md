@@ -1,3 +1,0 @@
----
-title: "Sonia Lynn Bjornsen"
----
