@@ -9,6 +9,15 @@ title: "Sonia Lynn Bjornsen"
 </div>
 
 <div>
+  {% for page in site.pages %}
+    <div>
+      <a href="{{ site.url }}{{ post.url }}">{{ page.title }}</a>
+      <div>{{ page.content }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+<div>
   {% for post in site.posts %}
     <div>
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
