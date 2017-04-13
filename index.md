@@ -6,7 +6,7 @@ title: "Sonia Lynn Bjornsen"
   {% for page in site.pages %}
     {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
       <div>{{ page.title }}</div>
-      <div>{{ page.excerpt }}</div>
+      <div>{{ page.content }}</div>
     {% endif %}
   {% endfor %}
 </div>
