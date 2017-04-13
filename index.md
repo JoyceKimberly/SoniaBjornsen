@@ -5,7 +5,7 @@ title: "Sonia Lynn Bjornsen"
 <div>
   {% for page in site.pages %}
     {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
-      <a name="{{ page.url }}"></a>
+      <a name="{{ page.permalink }}"></a>
       <div>{{ page.title }}</div>
       <div>{{ page.content }}</div>
     {% endif %}
@@ -15,7 +15,7 @@ title: "Sonia Lynn Bjornsen"
 <div>
   {% for post in site.posts %}
     <div>
-      <a name="{{ post.url }}"></a>
+      <a name="{{ post.permalink }}"></a>
       <div>{{ post.title }}</div>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
       <div>{{ post.excerpt }}</div>
