@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" itemscope itemtype="http://schema.org/Person" itemid="{{ site.url }}">
+<html lang="en-us" itemscope itemtype="http://schema.org/WebSite">
   <head>
     <meta charset="UTF-8">
     <title itemprop="name">{{ page.title | default: site.title }}</title>
@@ -11,8 +11,9 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script type="text/javascript" src="{{ '/assets/js/functions.js' | relative_url }}"></script>
+    <meta itemprop="about" itemscope itemid="{{ site.url }}">
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/Person" itemid="{{ site.url }}">
     {{ content }}
   </body>
 </html>
