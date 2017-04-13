@@ -11,7 +11,6 @@ title: "Sonia Lynn Bjornsen"
     <time itemprop="dateModified" datetime="{{ post.date | date: '%Y-%m-%d' }}" class="hidden">{{ post.date | date: '%-d %B %Y' }}</time>
     {{ post.excerpt }}
     <span itemprop="author" itemscope itemid="{{ site.url }}" class="hidden">{{ post.author }}</span>
-    <span itemprop="publisher" itemscope itemid="{{ site.url }}" class="hidden">{{ post.author }}</span>
   </div>
 {% endfor %}
 </div>
