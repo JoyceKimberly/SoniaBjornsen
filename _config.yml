@@ -15,4 +15,5 @@ gems:
   - jekyll-seo-tag
 
 seo:
+  name: "Sonia Lynn Bjornsen"
   type: Person
