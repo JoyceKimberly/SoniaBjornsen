@@ -3,10 +3,10 @@ title: "Sonia Lynn Bjornsen"
 ---
 
 <div>
-  {% for page in site.pages %}
+  {% for pag in site.pages %}
       <div>
-        <a href="{{ site.url }}{{ post.url }}">{{ page.title }}</a>
-        <div>{{ page.excerpt }}</div>
+        <div>{{ pag.title }}</div>
+        <div>{{ pag.excerpt }}</div>
       </div>
   {% endfor %}
 </div>
