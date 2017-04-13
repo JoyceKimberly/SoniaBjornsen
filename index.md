@@ -3,7 +3,7 @@ title: "Sonia Lynn Bjornsen"
 ---
 
 {% for page in site.pages %}
-  {% if page.title != '' and page.title != 'Sonia Lynn Bjornsen' %}
+  {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
     <div>
       <div>{{ page.title }}</div>
       <div>{{ page.excerpt }}</div>
