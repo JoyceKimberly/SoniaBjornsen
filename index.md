@@ -4,7 +4,7 @@ title: "Sonia Lynn Bjornsen"
 
 <div>
   {% for page in site.pages %}
-    {% if page.path == '_pages' %}
+    {% if page.title != 'Sonia Lynn Bjornsen' %}
       <div>
         <div>{{ page.title }}</div>
         <div>{{ page.excerpt }}</div>
