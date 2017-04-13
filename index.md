@@ -2,18 +2,14 @@
 title: "Sonia Lynn Bjornsen"
 ---
 
-<div id="about">
-  <div>
-    Tekst tekst.
-  </div>
-</div>
-
 <div>
   {% for page in site.pages %}
-    <div>
-      <a href="{{ site.url }}{{ post.url }}">{{ page.title }}</a>
-      <div>{{ page.content }}</div>
-    </div>
+    {% if page.path == '_pages' %}
+      <div>
+        <a href="{{ site.url }}{{ post.url }}">{{ page.title }}</a>
+        <div>{{ page.content }}</div>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 
