@@ -3,13 +3,11 @@ title: "Sonia Lynn Bjornsen"
 ---
 
 {% for page in site.pages %}
-  {% if page.title != '' %}
-    {% if page.title != 'Sonia Lynn Bjornsen' %}
-      <div>
-        <div>{{ page.title }}</div>
-        <div>{{ page.excerpt }}</div>
-      </div>
-    {% endif %}
+  {% if page.title != 'Sonia Lynn Bjornsen' %}
+    <div>
+      <div>{{ page.title }}</div>
+      <div>{{ page.excerpt }}</div>
+    </div>
   {% endif %}
 {% endfor %}
 

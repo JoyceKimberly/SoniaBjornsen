@@ -2,6 +2,7 @@ url: https://joycekimberly.github.io/SoniaLynnBjornsen
 baseurl: SoniaLynnBjornsen
 permalink: pretty
 markdown: kramdown
+include: ["_pages"]
 
 defaults:
   -
