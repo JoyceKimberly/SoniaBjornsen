@@ -10,3 +10,9 @@ defaults:
     values:
       layout: "default"
       author: "Sonia Lynn Bjornsen"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: ""
