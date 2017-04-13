@@ -2,16 +2,16 @@
 title: "Sonia Lynn Bjornsen"
 ---
 
-<div>
-  {% for page in site.pages %}
+{% for page in site.pages %}
+  {% if page.title != '' %}
     {% if page.title != 'Sonia Lynn Bjornsen' %}
       <div>
         <div>{{ page.title }}</div>
         <div>{{ page.excerpt }}</div>
       </div>
     {% endif %}
-  {% endfor %}
-</div>
+  {% endif %}
+{% endfor %}
 
 <div>
   {% for post in site.posts %}
