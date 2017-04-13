@@ -2,6 +2,7 @@
 title: "Sonia Lynn Bjornsen"
 ---
 
+<div itemscope itemtype="http://schema.org/Blog">
 {% for post in site.posts %}
   <div itemscope itemtype="http://schema.org/BlogPosting">
     <a itemprop="url" href="{{ site.url }}{{ post.url }}"><span itemprop="name">{{ post.title }}</span></a>
@@ -9,3 +10,4 @@ title: "Sonia Lynn Bjornsen"
     {{ post.excerpt }}
   </div>
 {% endfor %}
+</div>
