@@ -17,9 +17,11 @@ a {
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin-ext');
 
-$font1: 'Cardo', serif;
-$font2: 'Alex Brush', cursive;
+$serif: 'Cardo', serif;
+$sans: 'Didact Gothic', sans-serif;
+$cursive: 'Alex Brush', cursive;
 
 $side-width: 25vw;
 
@@ -32,6 +34,7 @@ body {
 }
 
 #navigation {
+  font-family: $sans;
   width: $side-width;
 }
 .nav-link.active {
@@ -44,12 +47,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font2;
+  font-family: $cursive;
 }
 h1 {
   font-size: 5rem;
 }
 
 p {
-  font-family: $font1;
+  font-family: $serif;
 }
