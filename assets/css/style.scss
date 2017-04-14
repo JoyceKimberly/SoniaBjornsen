@@ -11,6 +11,8 @@ a {
   border: 0 !important;
 }
 
+$side-width: 250px;
+
 .hidden {
   display: none;
 }
@@ -19,11 +21,14 @@ body {
   position: relative;
 }
 
+#navigation {
+  width: $side-width;
+}
 .nav-link.active {
   font-weight: bold;
 }
 
 .block {
   padding-top: 250px;
-  padding-left: 250px;
+  padding-left: $side-width;
 }
