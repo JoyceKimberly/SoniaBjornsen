@@ -16,6 +16,7 @@ a {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:900');
 
 $side-width: 25vw;
 
@@ -37,6 +38,10 @@ body {
 .block {
   min-height: 100vw;
   padding: $side-width;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 p {
