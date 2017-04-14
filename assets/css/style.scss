@@ -16,11 +16,11 @@ a {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin-ext');
 
 $serif: 'Cardo', serif;
-$sans: 'Didact Gothic', sans-serif;
+$sans: 'Montserrat', sans-serif;
 $cursive: 'Alex Brush', cursive;
 
 $side-width: 25vw;
@@ -33,8 +33,11 @@ body {
   overflow-y: scroll;
 }
 
+time,
 #navigation {
   font-family: $sans;
+}
+#navigation {
   width: $side-width;
 }
 .nav-link.active {
