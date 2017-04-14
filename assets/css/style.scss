@@ -15,7 +15,7 @@ a {
   display: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700&subset=latin-ext');
 
 $side-width: 25vw;
 
@@ -40,5 +40,5 @@ body {
 }
 
 p {
-  font-family: 'Crimson Text', serif;
+  font-family: Cardo, serif;
 }
