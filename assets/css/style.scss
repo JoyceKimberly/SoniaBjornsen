@@ -19,6 +19,10 @@ body {
   position: relative;
 }
 
+.nav-link.active {
+  font-weight: bold;
+}
+
 .block {
   margin-top: 250px;
   margin-left: 250px;
