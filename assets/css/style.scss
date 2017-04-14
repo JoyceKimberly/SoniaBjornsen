@@ -11,12 +11,11 @@ a {
 ::-moz-focus-inner {
   border: 0 !important;
 }
-
-$side-width: 250px;
-
 .hidden {
   display: none;
 }
+
+$side-width: 25vw;
 
 html { font-size: 2vw; }
 body {
@@ -34,6 +33,6 @@ body {
 }
 
 .block {
-  padding-top: 250px;
+  padding-top: $side-width;
   padding-left: $side-width;
 }
