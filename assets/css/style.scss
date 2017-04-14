@@ -20,6 +20,9 @@ $side-width: 250px;
 
 body {
   position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 #navigation {
