@@ -60,10 +60,6 @@ body {
   overflow-y: scroll;
 }
 
-time {
-  color: $gray-lighter;
-}
-
 time,
 #navigation {
   font-size: 0.7rem;
@@ -87,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 6rem;
+  color: $gray-lighter;
 }
 
 p {
