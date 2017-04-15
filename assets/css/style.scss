@@ -84,14 +84,14 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 h1 a {
   font-size: 6rem;
-  color: $gray-light;
+  color: $gray-lighter;
 }
 
 p {
   font-family: $serif;
 }
 p:first-child:first-letter {
-  color: $gray;
+  color: $gray-light;
   float: left;
   font-size: 3rem;
   line-height: 2.8rem;
