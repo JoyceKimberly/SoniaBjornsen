@@ -60,6 +60,10 @@ body {
   overflow-y: scroll;
 }
 
+time {
+  color: $gray-lighter;
+}
+
 time,
 #navigation {
   font-size: 0.7rem;
