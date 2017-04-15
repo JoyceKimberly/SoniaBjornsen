@@ -3,7 +3,7 @@ title: "Sonia Lynn Bjornsen"
 ---
 
 <div id="main-content">
-  <h1>Sonia Lynn Bjornsen</h1>
+  <h1 class="titel">Sonia Lynn Bjornsen</h1>
   {% for page in site.pages %}
     {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
       <a name="{{ page.slug }}"></a>
