@@ -20,8 +20,8 @@ title: "Sonia Lynn Bjornsen"
       <a name="{{ post.slug }}"></a>
       <div id="{{ post.slug }}">
         <!--<h1><a href="{{ site.url }}/#{{ post.slug }}">{{ post.title }}</a></h1>-->
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
         <div>{{ post.content }}</div>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
       </div>
     {% endfor %}
   </div>
