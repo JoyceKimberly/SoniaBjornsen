@@ -68,8 +68,9 @@ time,
   text-transform: uppercase;
 }
 #navigation {
+  font-size: 0.8rem;
   width: $side-width;
-  padding: 10vw 5vw;
+  padding: 25vw 0 0 5vw;
 }
 .nav-link.active {
   font-weight: bold;
