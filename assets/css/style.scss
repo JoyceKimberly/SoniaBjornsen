@@ -61,3 +61,8 @@ h1 {
 p {
   font-family: $serif;
 }
+p:first-child:first-letter {
+  float: left;
+  font-size: 2rem;
+  line-height: 2rem;
+}
