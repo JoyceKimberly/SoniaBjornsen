@@ -105,3 +105,6 @@ p:first-child:first-letter {
   padding-top: 0.3rem;
   padding-right: 0.3rem;
 }
+p:last-of-type {
+  margin-bottom: 0;
+}
