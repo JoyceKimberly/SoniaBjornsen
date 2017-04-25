@@ -15,13 +15,15 @@ title: "Sonia Lynn Bjornsen"
   {% endfor %}
 
   <a name="news"></a>
-  <div id="news" class="block news {{ post.lang }}">
+  <div id="news" class="block news">
     {% for post in site.posts %}
-      <a name="{{ post.slug }}"></a>
-      <div id="{{ post.slug }}">
-        <!--<h1><a href="{{ site.url }}/#{{ post.slug }}">{{ post.title }}</a></h1>-->
-        <div>{{ post.content }}</div>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
+      <div class="{{ post.lang }}">
+        <a name="{{ post.slug }}"></a>
+        <div id="{{ post.slug }}">
+          <!--<h1><a href="{{ site.url }}/#{{ post.slug }}">{{ post.title }}</a></h1>-->
+          <div>{{ post.content }}</div>
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
+        </div>
       </div>
     {% endfor %}
   </div>
