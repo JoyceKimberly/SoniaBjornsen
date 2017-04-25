@@ -15,7 +15,7 @@ title: "Sonia Lynn Bjornsen"
   {% endfor %}
 
   <a name="news"></a>
-  <div id="news" class="block news">
+  <div id="news" class="block news {{ post.lang }}">
     {% for post in site.posts %}
       <a name="{{ post.slug }}"></a>
       <div id="{{ post.slug }}">
