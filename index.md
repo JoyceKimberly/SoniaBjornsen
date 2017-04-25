@@ -7,7 +7,7 @@ title: "Sonia Lynn Bjornsen"
   {% for page in site.pages %}
     {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
       <a name="{{ page.slug }}"></a>
-      <div id="{{ page.slug }}" class="block {{ page.slug }}">
+      <div id="{{ page.slug }}" class="block {{ page.slug }}" lang="{{ page.lang }}">
         <!--<h1><a href="{{ site.url }}/#{{ page.slug }}">{{ page.title }}</a></h1>-->
         <div>{{ page.content }}</div>
       </div>
@@ -17,13 +17,11 @@ title: "Sonia Lynn Bjornsen"
   <a name="news"></a>
   <div id="news" class="block news">
     {% for post in site.posts %}
-      <div class="{{ post.lang }}">
-        <a name="{{ post.slug }}"></a>
-        <div id="{{ post.slug }}">
-          <!--<h1><a href="{{ site.url }}/#{{ post.slug }}">{{ post.title }}</a></h1>-->
-          <div>{{ post.content }}</div>
-          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
-        </div>
+      <a name="{{ post.slug }}"></a>
+      <div id="{{ post.slug }}" lang="{{ post.lang }}">
+        <!--<h1><a href="{{ site.url }}/#{{ post.slug }}">{{ post.title }}</a></h1>-->
+        <div>{{ post.content }}</div>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>
       </div>
     {% endfor %}
   </div>
