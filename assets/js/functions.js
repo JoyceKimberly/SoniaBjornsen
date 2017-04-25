@@ -3,7 +3,7 @@ var lang = "en";
 $(function () { // -----------------------------------------------------------------------
 
   $("[lang]").each(function (index, obj) {
-    var $dit = $(this);
+    var $dit = $(obj);
     console.log($dit);
   });
 
