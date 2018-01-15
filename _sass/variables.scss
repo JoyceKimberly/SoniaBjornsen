@@ -37,3 +37,11 @@ $sans: 'Questrial', sans-serif;
 $cursive: 'Alex Brush', cursive;
 
 $side-width: 25vw;
+
+body {
+    position: relative;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
