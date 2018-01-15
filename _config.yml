@@ -4,6 +4,9 @@ permalink: pretty
 markdown: kramdown
 include: ["_pages"]
 
+sass:
+    sass_dir: SoniaLynnBjornsen/_sass
+
 plugins:
   - jekyll-admin
 
