@@ -1,5 +1,5 @@
 ---
-title: "Sonia Lynn Bjornsen"
+title: Sonia Lynn Bjornsen
 ---
 
 <div id="main-content">
