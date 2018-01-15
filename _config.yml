@@ -4,6 +4,9 @@ permalink: pretty
 markdown: kramdown
 include: ["_pages"]
 
+plugins:
+  - jekyll-admin
+
 defaults:
   -
     scope:
