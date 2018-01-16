@@ -24,10 +24,9 @@ time,
   text-transform: uppercase;
   width: 100vw;
   padding: 0 0 0 5vw;
-
-  li {
-    display: inline-block;
-  }
+}
+.nav-link {
+  display: inline-block;
 }
 .nav-link.active {
   font-weight: bold;
