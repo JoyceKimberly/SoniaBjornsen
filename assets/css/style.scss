@@ -19,11 +19,15 @@ body {
 time, #navigation a { color: $gray-700; }
 time,
 #navigation {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: $font-family-base;
   text-transform: uppercase;
   width: 100vw;
   padding: 0 0 0 5vw;
+
+  li {
+    display: inline-block;
+  }
 }
 .nav-link.active {
   font-weight: bold;
