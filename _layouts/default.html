@@ -28,44 +28,22 @@
     }
     </script>
   </head>
-  <body>
-    <div class="site-wrapper">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <header class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav class="nav nav-masthead">
-                <a class="nav-link active" href="#about">About</a>
-                <a class="nav-link" href="#contact">Contact</a>
-                <a class="nav-link" href="#news">News</a>
-              </nav>
-            </div>
-          </header>
-
-          <main role="main" class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-              {{ content }}
-            </p>
-          </main>
-
-          <footer class="mastfoot">
-            <div class="inner">
-              <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-            </div>
-          </footer>
-
-        </div>
-
-      </div>
-
-    </div>
-
+  <body data-spy="scroll" data-target="#navigation">
+    {{ content }}
+    <nav id="navigation" class="fixed-top">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#news">News</a>
+        </li>
+      </ul>
+    </nav>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
