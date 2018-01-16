@@ -13,7 +13,7 @@ body {
 }
 
 .titel {
-  float: right;
+  //float: right;
 }
 
 time, #navigation a { color: $gray-700; }
@@ -22,11 +22,8 @@ time,
   font-size: 0.7rem;
   font-family: $font-family-base;
   text-transform: uppercase;
-}
-#navigation {
-  font-size: 0.8rem;
-  width: $side-width;
-  padding: 25vw 0 0 5vw;
+  width: 100vw;
+  padding: 0 0 0 5vw;
 }
 .nav-link.active {
   font-weight: bold;
