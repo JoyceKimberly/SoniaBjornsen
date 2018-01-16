@@ -16,11 +16,11 @@ body {
   float: right;
 }
 
-time, #navigation a { color: $gray-light; }
+time, #navigation a { color: $gray-700; }
 time,
 #navigation {
   font-size: 0.7rem;
-  font-family: $sans;
+  font-family: $font-family-base;
   text-transform: uppercase;
 }
 #navigation {
@@ -38,19 +38,19 @@ time,
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $cursive;
+  font-family: $font-family-base;
 }
 h1,
 h1 a {
   font-size: 6rem;
-  color: $gray-lighter;
+  color: $gray-600;
 }
 
 p {
-  font-family: $serif;
+  font-family: $font-family-base;
 }
 p:first-child:first-letter {
-  color: $gray-light;
+  color: $gray-700;
   float: left;
   font-size: 3rem;
   line-height: 2.8rem;
