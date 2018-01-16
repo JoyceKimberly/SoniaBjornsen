@@ -1,29 +1,37 @@
-// Start with assigning color names to specific hex values.
-$white:  #fff;
-$black:  #000;
-$red:    #d9534f;
-$orange: #f0ad4e;
-$yellow: #ffd500;
-$green:  #5cb85c;
-$blue:   #0275d8;
-$teal:   #5bc0de;
-$pink:   #ff5b77;
-$purple: #613d7c;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
 
-// Create grayscale
-$gray-dark:                 #292b2c;
-$gray:                      #464a4c;
-$gray-light:                #636c72;
-$gray-lighter:              #eceeef;
-$gray-lightest:             #f7f7f9;
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
 
-// Reassign color vars to semantic color scheme
-$brand-primary:             $blue;
-$brand-success:             $green;
-$brand-info:                $teal;
-$brand-warning:             $orange;
-$brand-danger:              $red;
-$brand-inverse:             $gray-dark;
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+$body-bg:       $black;
+$body-color:    $gray-400;
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
@@ -32,5 +40,9 @@ $brand-inverse:             $gray-dark;
 $serif: 'Cardo', serif;
 $sans: 'Questrial', sans-serif;
 $cursive: 'Alex Brush', cursive;
+
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
 
 $side-width: 25vw;

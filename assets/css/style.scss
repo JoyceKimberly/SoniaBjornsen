@@ -1,16 +1,15 @@
 ---
 ---
 
-@import "reset";
 @import "variables";
 @import "bootstrap/bootstrap";
+@import "reset";
 
 body {
   position: relative;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: black;
 }
 
 .titel {
