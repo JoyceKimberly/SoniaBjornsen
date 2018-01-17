@@ -24,6 +24,10 @@ time,
   text-transform: uppercase;
   //width: 100vw;
   //padding: 0 0 0 5vw;
+  
+  * {
+    display: inline;
+  }
 }
 .nav-link {
   //display: inline-block;
