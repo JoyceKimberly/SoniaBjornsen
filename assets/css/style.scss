@@ -64,3 +64,15 @@ p:first-child:first-letter {
 p:last-of-type {
   margin-bottom: 0;
 }
+
+
+//
+// Specific
+//
+
+#titel {
+  background-image: url("../img/SoniaPortret-01.jpg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 50%;
+}
