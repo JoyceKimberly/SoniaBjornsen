@@ -19,7 +19,7 @@ body {
 time, #navigation a { color: $gray-700; }
 time,
 #navigation {
-  background-color: black;
+  background-color: black !important;
   font-size: 0.8rem;
   font-family: $font-family-base;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ p:last-of-type {
 // Specific
 //
 
-#titel {
+div#titel {
   background-image: url("../img/SoniaPortret-01.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
