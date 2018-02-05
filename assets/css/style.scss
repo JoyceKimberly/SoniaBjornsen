@@ -12,10 +12,6 @@ body {
   overflow-y: scroll;
 }
 
-.titel {
-  //float: right;
-}
-
 time, #navigation a { color: $gray-700; }
 time,
 #navigation {
@@ -30,9 +26,9 @@ time,
     display: inline !important;
   }
 }
-.nav-link {
-  //display: inline-block;
-}
+/*.nav-link {
+  display: inline-block;
+}*/
 .nav-link.active {
   font-weight: bold;
 }
