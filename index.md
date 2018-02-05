@@ -4,7 +4,7 @@ title: "Sonia Lynn Bjornsen"
 
 <div id="main-content">
   <div id="titel" class="block titel">
-    <h1 class="titel">Sonia Lynn Bjornsen</h1>
+    <h1 class="titel"></h1>
   </div>
   {% for page in site.pages %}
     {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
