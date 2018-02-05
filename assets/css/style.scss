@@ -72,10 +72,12 @@ div#titel {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: auto 80vh;
-  
   min-height: 100vh;
+  padding: 0;
 }
 h1.titel {
   background-image: url("../img/SoniaTitel-01.svg");
   background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
