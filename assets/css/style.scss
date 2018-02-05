@@ -67,7 +67,7 @@ p:last-of-type {
 // Specific
 //
 
-div#titel {
+#titelBlock {
   background-image: url("../img/SoniaPortret-01.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -75,7 +75,7 @@ div#titel {
   min-height: 100vh;
   padding: 0;
 }
-h1.titel {
+#titel {
   background-image: url("../img/SoniaTitel-01.svg");
   background-repeat: no-repeat;
   width: 100%;
