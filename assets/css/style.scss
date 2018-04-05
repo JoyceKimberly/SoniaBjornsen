@@ -85,7 +85,7 @@ p:last-of-type {
   left: 56vh;
 }
 
-.block.about {
+.block:nth-of-type(2) {
   background-image: url("../img/SoniaBackground-02.jpg");
   background-repeat: no-repeat;
   background-position: left bottom;
