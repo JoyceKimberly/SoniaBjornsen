@@ -1,7 +1,6 @@
 ---
 title: "About"
 slug: "about"
-ref: "about"
 lang: "en"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin condimentum mi, et ultricies urna. Donec hendrerit hendrerit orci, a vehicula sapien suscipit vitae. Donec vehicula auctor fringilla. Curabitur purus leo, placerat ac hendrerit sed, fermentum vitae velit. Phasellus porttitor porttitor odio at efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur gravida odio mauris, vitae ornare urna porta ut. Donec vel aliquam ex. Nam tincidunt orci sit amet vehicula consequat. Vivamus non ultricies dolor, a ornare libero. Suspendisse potenti. Fusce ut mi luctus, efficitur ex nec, suscipit leo. Maecenas eget ultricies tortor. Donec malesuada in tellus quis aliquet. Nunc odio lectus, pharetra vel convallis id, scelerisque non dui.
