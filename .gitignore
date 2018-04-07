@@ -7,4 +7,6 @@
 ehthumbs.db
 Thumbs.db 
 
-*.codekit
+# Other files
+*.codekit3
+build
