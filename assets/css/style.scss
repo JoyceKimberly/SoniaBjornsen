@@ -15,7 +15,6 @@ body {
 time, #navigation a { color: $gray-700; }
 time,
 #navigation {
-  background-color: black !important;
   font-size: 0.8rem;
   font-family: $font-family-base;
   text-transform: uppercase;
@@ -31,6 +30,12 @@ time,
 }*/
 .nav-link.active {
   font-weight: bold;
+}
+time {
+  background-color: transparent !important;
+}
+#navigation {
+  background-color: black !important;
 }
 
 .block {
