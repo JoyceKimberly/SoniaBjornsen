@@ -2,13 +2,6 @@ var lang = "nl";
 
 $(function () { // -----------------------------------------------------------------------
 
-  $("div[lang]").each(function(index, obj) {
-    var $dit = $(obj);
-    if (!$dit.is('[lang="' + lang + '"]')) {
-      $dit.hide();
-    };
-  });
-
   $(".flag-link").click(function() {
     var $dit = $(this);
 
@@ -21,6 +14,15 @@ $(function () { // -------------------------------------------------------------
     $("body").attr("lang", lang);
     $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
     
+    $("div[lang]").each(function(index, obj) {
+      var $dit = $(obj);
+      if (!$dit.is('[lang="' + lang + '"]')) {
+        $dit.hide();
+      } else {
+        $dit.show();
+      };
+    });
+  
     console.log($dit);
   });
   $(".flag-link").trigger("click");
