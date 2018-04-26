@@ -6,7 +6,11 @@ $(function () { // -------------------------------------------------------------
     var $dit = $(".flag-link");
 
     $("body").attr("lang", lang);
-    $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
+    if (lang == "en") {
+      $dit.find("span").attr("class", "flag-icon flag-icon-us");
+    } else {
+      $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
+    };
     
     $("div[lang]").each(function(index, obj) {
       var $dit = $(obj);
