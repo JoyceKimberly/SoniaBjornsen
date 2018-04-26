@@ -9,19 +9,17 @@ title: "Sonia Lynn Bjornsen"
   {% for page in site.pages %}
     {% if page.lang == 'en' %}
       <a name="{{ page.slug }}"></a>
-      <div id="{{ page.slug }}" class="block {{ page.slug }}" lang="{{ page.lang }}">
+      <div id="{{ page.slug }}" class="block {{ page.slug }}">
         <!--<h1><a href="{{ site.url }}/#{{ page.slug }}">{{ page.title }}</a></h1>-->
-        <div>{{ page.content }}</div>
+        <div lang="{{ page.lang }}">{{ page.content }}</div>
+
+        {% for pageNL in site.pages %}
+          {% if pageNL.slug == page.slug and pageNL.lang == 'nl' %}
+            <div lang="{{ pageNL.lang }}">{{ pageNL.content }}</div>
+          {% endif %}
+        {% endfor %}
+
       </div>
-
-      {% for pageNL in site.pages %}
-        {% if pageNL.slug == page.slug and pageNL.lang == 'nl' %}
-          <div id="{{ pageNL.slug }}" class="block {{ pageNL.slug }}" lang="{{ pageNL.lang }}">
-            <div>{{ pageNL.content }}</div>
-          </div>
-        {% endif %}
-      {% endfor %}
-
     {% endif %}
   {% endfor %}
 
