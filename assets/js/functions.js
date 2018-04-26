@@ -1,15 +1,9 @@
-var lang = "nl";
+var lang = "en";
 
 $(function () { // -----------------------------------------------------------------------
 
-  $(".flag-link").click(function() {
-    var $dit = $(this);
-
-    if (lang == "en") {
-      lang = "nl";
-    } else {
-      lang = "en";
-    };
+  setLang = function(clicked) {
+    var $dit = $(clicked);
 
     $("body").attr("lang", lang);
     $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
@@ -24,7 +18,18 @@ $(function () { // -------------------------------------------------------------
     });
   
     console.log($dit);
+  };
+
+  console.log(navigator.language);
+  setLang();
+
+  $(".flag-link").click(function() {
+    if (lang == "en") {
+      lang = "nl";
+    } else {
+      lang = "en";
+    };
+    setLang($(this));
   });
-  $(".flag-link").trigger("click");
 
 }); // ----------------------------------------------------------------------------------
