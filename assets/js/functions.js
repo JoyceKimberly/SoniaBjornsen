@@ -2,9 +2,9 @@ var lang = "en";
 
 $(function () { // -----------------------------------------------------------------------
 
-  $("[lang]").each(function (index, obj) {
+  $("div[lang]").each(function (index, obj) {
     var $dit = $(obj);
-    if (!$dit.is('div[lang="' + lang + '"]')) {
+    if (!$dit.is('[lang="' + lang + '"]')) {
       $dit.hide();
     };
     console.log($dit);
