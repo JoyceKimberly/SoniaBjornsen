@@ -7,14 +7,11 @@ title: "Sonia Lynn Bjornsen"
     <div id="titel">Sonia Lynn Bjornsen</div>
   </div>
   {% for page in site.pages %}
-    {% if page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
+    {% if page.lang == 'en' page.title != undefined and page.title != 'Sonia Lynn Bjornsen' %}
       <a name="{{ page.slug }}"></a>
-      <div id="{{ page.slug }}" class="block {{ page.slug }}" lang="en">
+      <div id="{{ page.slug }}" class="block {{ page.slug }}" lang="{{ page.lang }}">
         <!--<h1><a href="{{ site.url }}/#{{ page.slug }}">{{ page.title }}</a></h1>-->
         <div>{{ page.content }}</div>
-      </div>
-      <div id="{{ page.slug }}" class="block {{ page.slug }}" lang="nl">
-        <div>{{ page.content-nl }}</div>
       </div>
     {% endif %}
   {% endfor %}
