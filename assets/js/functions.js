@@ -1,7 +1,9 @@
 var lang = "en";
 
 $(function () { // -----------------------------------------------------------------------
-  console.log(navigator.language.substring(0, 2));
+  if (navigator.language.substring(0, 2) == "nl") {
+    lang = "nl";
+  };
 
   setLang = function() {
     var $dit = $(".flag-link");
@@ -21,8 +23,6 @@ $(function () { // -------------------------------------------------------------
         $dit.show();
       };
     });
-  
-    console.log($dit);
   };
 
   setLang();
