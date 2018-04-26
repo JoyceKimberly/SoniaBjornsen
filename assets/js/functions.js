@@ -2,8 +2,8 @@ var lang = "en";
 
 $(function () { // -----------------------------------------------------------------------
 
-  setLang = function(clicked) {
-    var $dit = $(clicked);
+  setLang = function() {
+    var $dit = $(".flag-link");
 
     $("body").attr("lang", lang);
     $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
@@ -29,7 +29,7 @@ $(function () { // -------------------------------------------------------------
     } else {
       lang = "en";
     };
-    setLang($(this));
+    setLang();
   });
 
 }); // ----------------------------------------------------------------------------------
