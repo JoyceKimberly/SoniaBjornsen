@@ -1,15 +1,16 @@
 var lang = "en";
 
 $(function () { // -----------------------------------------------------------------------
+  console.log(navigator.language.substring(0, 2));
 
   setLang = function() {
     var $dit = $(".flag-link");
 
     $("body").attr("lang", lang);
-    if (lang == "en") {
-      $dit.find("span").attr("class", "flag-icon flag-icon-us");
+    if (lang == "nl") {
+      $dit.find("span").attr("class", "flag-icon flag-icon-nl");
     } else {
-      $dit.find("span").attr("class", "flag-icon flag-icon-" + lang);
+      $dit.find("span").attr("class", "flag-icon flag-icon-us");
     };
     
     $("div[lang]").each(function(index, obj) {
@@ -24,7 +25,6 @@ $(function () { // -------------------------------------------------------------
     console.log($dit);
   };
 
-  console.log(navigator.language);
   setLang();
 
   $(".flag-link").click(function() {
